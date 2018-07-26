@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" id="phone" version="0.1">
+  <name>Phone</name>
+  <icon src="icon.svg"/>
+  <content src="bin/phone" type="application/vnd.agl.native"/>
+  <description>Phone Dialer Application</description>
+  <author>Qt</author>
+  <license>APL 2.0</license>
+  <feature name="urn:AGL:widget:required-api">
+    <param name="windowmanager" value="ws" />
+    <param name="homescreen" value="ws" />
+    <param name="lib/libtelephony-binding.so" value="local" />
+    <param name="Bluetooth-Manager" value="ws" />
+    <param name="bluetooth-pbap" value="ws" />
+  </feature>
+  <feature name="urn:AGL:widget:required-permission">
+    <param name="urn:AGL:permission::public:no-htdocs" value="required" />
+    <param name="http://tizen.org/privilege/internal/dbus" value="required" />
+  </feature>
+</widget>
+
+

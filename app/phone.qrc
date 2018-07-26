@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Phone.qml</file>
+        <file>Dialer.qml</file>
+	<file>Recents.qml</file>
+        <file>ContactsView.qml</file>
+	<file>TabImageButton.qml</file>
+    </qresource>
+</RCC>
